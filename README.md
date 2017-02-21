@@ -5,7 +5,6 @@ import urllib.request
 import json
 
 serviceurl = 'http://maps.googleapis.com/maps/api/geocode/json?'
-#serviceurl = 'http://python-data.dr-chuck.net/geojson?'
 
 while True:
     address = input('Enter location: ')
